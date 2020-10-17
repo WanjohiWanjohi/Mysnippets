@@ -1,0 +1,2 @@
+def convert_to_datetime(df , column):
+  df[column] =  pd.to_datetime(df[column])
